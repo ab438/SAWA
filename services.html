@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>document.documentElement.classList.add("js")</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover SAWA — thoughtful women's fashion, carefully selected pieces and a considered shopping experience.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .sawa-page { background: #f8f5f1; color: #292522; }
+    .sawa-page .page-hero { padding: clamp(76px, 11vw, 150px) 24px 84px; text-align:center; background:#eee7df; }
+    .sawa-page .eyebrow { display:block; margin-bottom:18px; font:700 10px/1.4 Manrope,sans-serif; letter-spacing:.22em; text-transform:uppercase; color:#8a5a5b; }
+    .sawa-page h1,.sawa-page h2 { font-family:'Bodoni Moda',serif; font-weight:400; }
+    .sawa-page .page-hero h1 { max-width:900px; margin:0 auto 20px; font-size:clamp(42px,7vw,82px); line-height:1.04; }
+    .sawa-page .page-hero p { max-width:620px; margin:0 auto; color:#706963; font-size:15px; line-height:1.9; }
+    .sawa-page .content-wrap { width:min(1120px, calc(100% - 48px)); margin:0 auto; padding:84px 0; }
+    .sawa-page .split { display:grid; grid-template-columns:1fr 1fr; gap:clamp(32px,7vw,90px); align-items:center; }
+    .sawa-page .editorial-panel { min-height:360px; background:linear-gradient(145deg,#e5d9ce,#f0e9e2 55%,#d7c5bb); display:flex; align-items:center; justify-content:center; padding:44px; text-align:center; }
+    .sawa-page .editorial-panel span { font:italic 38px 'Bodoni Moda',serif; color:#6c4548; }
+    .sawa-page h2 { font-size:clamp(32px,4vw,48px); line-height:1.15; margin:0 0 20px; }
+    .sawa-page .copy { color:#706963; line-height:2; font-size:14px; }
+    .sawa-page .value-grid,.sawa-page .service-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin-top:42px; }
+    .sawa-page .value-card,.sawa-page .service-card { padding:30px 26px; background:#fff; border:1px solid #eee7e0; }
+    .sawa-page .number { color:#9b6b6b; font:italic 24px 'Bodoni Moda',serif; }
+    .sawa-page .value-card h3,.sawa-page .service-card h3 { margin:15px 0 10px; font:400 23px 'Bodoni Moda',serif; }
+    .sawa-page .value-card p,.sawa-page .service-card p { color:#77706a; font-size:13px; line-height:1.9; margin:0; }
+    .sawa-page .cta-band { background:#4c3034; color:#fff; text-align:center; padding:68px 24px; }
+    .sawa-page .cta-band h2 { margin-bottom:14px; }
+    .sawa-page .cta-band p { color:#e0d3d0; margin:0 auto 24px; max-width:540px; line-height:1.8; font-size:14px; }
+    .sawa-page .page-button { display:inline-block; padding:14px 28px; background:#fff; color:#4c3034; text-decoration:none; font:700 10px Manrope,sans-serif; letter-spacing:.15em; text-transform:uppercase; }
+    .sawa-page .service-card .service-icon { font:28px 'Bodoni Moda',serif; color:#9b6b6b; }
+    @media(max-width:760px){ .sawa-page .split{grid-template-columns:1fr}.sawa-page .value-grid,.sawa-page .service-grid{grid-template-columns:1fr}.sawa-page .content-wrap{padding:58px 0}.sawa-page .editorial-panel{min-height:230px} }
+  </style>
+</head>
+<body class="sawa-page">
+<a href="#main" class="skip-link">Skip to content</a>
+<header class="site-header" id="siteHeader">
+  <div class="container-x"><div class="nav-inner">
+    <a href="index.html" class="brand" aria-label="SAWA home">SAWA<span class="dot"></span></a>
+    <nav aria-label="Primary"><ul class="nav-links">
+      <li><a href="index.html#new">New In</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+    </ul></nav>
+    <div class="nav-actions"><a href="index.html#shop" class="btn-v btn-wine">Shop now</a></div>
+  </div></div>
+</header>
+<div class="scrim" id="scrim"></div>
+<aside class="mobile-nav" id="mobileNav" aria-label="Mobile menu">
+  <div class="mobile-nav-head"><span class="brand">SAWA<span class="dot">.</span></span></div>
+  <ul><li><a href="index.html#new">New In</a></li><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li></ul>
+  <div class="mobile-nav-foot"><p>Thoughtful pieces, made to be loved.</p></div>
+</aside>
+<main id="main">
+<section class="page-hero"><span class="eyebrow">The SAWA experience</span><h1>A little more care<br><em>at every step.</em></h1><p>From choosing your piece to receiving it at your door, we're here to make shopping with SAWA feel easy and reassuring.</p></section>
+<section class="content-wrap"><div style="text-align:center"><span class="eyebrow">How we help</span><h2>Services designed around you</h2><p class="copy" style="max-width:650px;margin:0 auto">The details matter. Here is what you can expect when you shop with us.</p></div><div class="service-grid"><article class="service-card" id="shipping"><span class="service-icon">01</span><h3>Delivery to your door</h3><p>Place your order with your correct phone number and address. Our team will contact you to confirm the details and arrange delivery. Delivery time and fees can be confirmed when your order is placed.</p></article><article class="service-card" id="payment"><span class="service-icon">02</span><h3>Cash on delivery</h3><p>Pay for your order when it arrives. Our current checkout supports cash on delivery, so you can confirm your order without entering card details online.</p></article><article class="service-card" id="returns"><span class="service-icon">03</span><h3>Returns &amp; exchanges</h3><p>Need a different size or have an issue with your order? Contact our team before sending an item back so we can guide you through the available exchange or return steps.</p></article><article class="service-card"><span class="service-icon">04</span><h3>Order confirmation</h3><p>After submitting your order, WhatsApp opens with your order details ready to send. Please press Send so our team receives your request.</p></article><article class="service-card"><span class="service-icon">05</span><h3>Personal assistance</h3><p>Have a question about a product, size or order? Message us and our team will help you with the information you need.</p></article><article class="service-card"><span class="service-icon">06</span><h3>Careful selection</h3><p>We aim to present clear product details and images to help you choose the piece that suits your style.</p></article></div></section>
+<section class="cta-band"><span class="eyebrow" style="color:#d8b5b4">We're one message away</span><h2>Need a hand with your order?</h2><p>Talk to the SAWA team on WhatsApp and we'll help you with your questions.</p><a class="page-button" href="https://wa.me/201044986530" target="_blank" rel="noopener">Chat on WhatsApp</a></section>
+
+</main>
+<footer class="site-footer"><div class="container-x">
+  <div class="footer-top">
+    <div><a href="index.html" class="brand">SAWA<span class="dot">.</span></a><p class="footer-about">Thoughtful women's fashion, carefully selected for the moments that make you feel like yourself.</p></div>
+    <div class="footer-col"><h4>Explore</h4><ul><li><a href="index.html#shop">Shop collection</a></li><li><a href="about.html">About SAWA</a></li><li><a href="services.html">Our Services</a></li></ul></div>
+    <div class="footer-col"><h4>Need help?</h4><ul><li><a href="https://wa.me/201044986530">Contact us on WhatsApp</a></li><li><a href="services.html#shipping">Shipping &amp; delivery</a></li><li><a href="services.html#returns">Returns &amp; exchanges</a></li></ul></div>
+  </div>
+  <div class="footer-bottom"><p>&copy; 2026 SAWA. All rights reserved.</p></div>
+</div></footer>
+<script src="js/vendor/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body></html>
